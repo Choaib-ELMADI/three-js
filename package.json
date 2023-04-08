@@ -1,0 +1,25 @@
+{
+  "name": "threejs",
+  "version": "1.0.0",
+  "description": "\"ThreeJs applications and Projects\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Choaib ELMADI\"",
+  "license": "ISC",
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.11.5",
+    "three": "^0.151.2",
+    "yuka": "^0.7.8"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.8.3",
+    "parcel-reporter-static-files-copy": "^1.5.0"
+  },
+  "staticFiles": {
+    "staticOutPath": "Assets"
+  }
+}
